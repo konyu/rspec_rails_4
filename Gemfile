@@ -62,7 +62,7 @@ group :test do
   gem "database_cleaner", "~> 1.0.1"
   gem "launchy", "~> 2.3.0"
   gem "shoulda-matchers", "~> 2.2.0"
-  gem "selenium-webdriver", "~> 2.35.1"
+  gem "selenium-webdriver", "~> 2.39.0"
 end
 
 gem "twitter-bootstrap-rails", "~> 2.2.8"
