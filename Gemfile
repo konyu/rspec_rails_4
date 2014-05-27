@@ -16,7 +16,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
-# gem 'therubyracer', platforms: :ruby
+gem 'therubyracer', platforms: :ruby
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
@@ -62,7 +62,7 @@ group :test do
   gem "database_cleaner", "~> 1.0.1"
   gem "launchy", "~> 2.3.0"
   gem "shoulda-matchers", "~> 2.2.0"
-  gem "selenium-webdriver", "~> 2.35.1"
+  gem "selenium-webdriver", "~> 2.39.0"
 end
 
 gem "twitter-bootstrap-rails", "~> 2.2.8"
